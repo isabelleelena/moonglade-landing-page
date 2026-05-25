@@ -52,12 +52,12 @@ h1 {
     background-color: #1b263b;
     color: #e0e1dd;
     flex: 1;
+    flex-shrink: 1;
     box-sizing: border-box;
 }
 
 img {
-    height: 240px;
-    flex-shrink: 1;
+    height: 180px;
 }
 
 h2 {
