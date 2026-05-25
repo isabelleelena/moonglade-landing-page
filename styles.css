@@ -40,3 +40,53 @@ h1 {
     font-weight: 900
 }
 
+.description {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+    height: 360px;
+    background-color: #1b263b;
+    color: #e0e1dd;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+img {
+    height: 240px;
+    flex-shrink: 1;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #0d1b2a;
+    border-color: #0d1b2a;
+    color: #e0e1dd;
+}
+
+h2, 
+p, 
+button {
+    margin: 10px;
+}
+
+.d-right,
+.d-left {
+    width: 600px;
+}
