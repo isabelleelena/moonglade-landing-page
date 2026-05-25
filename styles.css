@@ -1,0 +1,42 @@
+/* 
+Colours: 
+Darkest: 0d1b2a
+Second-darkest: 1b263b
+Mid-blue: 415a77
+light-blue: 778da9
+Cream: e0e1dd
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 120px;
+    padding-left: 120px;
+    box-sizing: border-box;
+    background-color: #1b263b;
+    color: #e0e1dd;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 900
+}
+
