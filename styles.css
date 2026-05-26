@@ -13,10 +13,11 @@ body {
 }
 
 .header {
-    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 120px;
     padding-left: 120px;
     box-sizing: border-box;
@@ -48,7 +49,6 @@ h1 {
     padding-top: 60px;
     justify-content: space-between;
     align-items: center;
-    height: 360px;
     background-color: #1b263b;
     color: #e0e1dd;
     flex: 1;
@@ -56,12 +56,15 @@ h1 {
     box-sizing: border-box;
 }
 
-img {
-    height: 180px;
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 40px;
     margin: 0px;
     padding: 0px;
 }
@@ -69,6 +72,9 @@ h2 {
 p {
     padding: 0px;
     margin: 0px;
+}
+
+.about {
     font-size: 20px;
 }
 
@@ -88,5 +94,63 @@ button {
 
 .d-right,
 .d-left {
-    width: 600px;
+    width: 100%;
+    max-width: 800px;
+    min-width: 0;
+    height: 180px;
+    overflow: hidden;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #0d1b2a;
+    background-color: #e0e1dd;
+}
+
+.m-top {
+    display: flex;
+    justify-content: center;
+}
+
+.m-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.p-one,
+.p-two,
+.p-three,
+.p-four {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.honey,
+.minnows,
+.starrot,
+.taxidermy {
+    text-align: center;
+    font-size: 15px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #778da9;
+    color: #1b263b;
+}
+
+.words {
+    font-size: 30px;
 }
