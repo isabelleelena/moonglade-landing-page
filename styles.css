@@ -21,7 +21,7 @@ body {
     padding-right: 120px;
     padding-left: 120px;
     box-sizing: border-box;
-    background-color: #1b263b;
+    background-color: #0d1b2a;
     color: #e0e1dd;
 }
 
@@ -80,10 +80,11 @@ p {
 
 button {
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: #0d1b2a;
-    border-color: #0d1b2a;
+    border: none;
     color: #e0e1dd;
+    border-radius: 15px;
 }
 
 h2, 
@@ -153,4 +154,49 @@ button {
 
 .words {
     font-size: 30px;
+}
+
+.contact {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    justify-content: center;
+    background-color: #0d1b2a;
+}
+
+.info {
+    background-color: #1b263b;
+    color: #e0e1dd;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.instagram,
+.email {
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #778da9;
+}
+
+.icon {
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: #1b263b;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+
+.copyright {
+    color: #e0e1dd;
+    font-size: 15px;
 }
