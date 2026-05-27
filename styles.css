@@ -66,6 +66,7 @@ h1 {
     padding-right: 120px;
     padding-bottom: 60px;
     padding-top: 60px;
+    justify-content: space-between;
 }
 
 .d-left,
@@ -137,6 +138,8 @@ button {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .p-one,
