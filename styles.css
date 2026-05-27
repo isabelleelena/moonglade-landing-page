@@ -7,6 +7,22 @@ light-blue: 778da9
 Cream: e0e1dd
 */
 
+@font-face {
+    font-family: 'Boeklins';
+    src: url(fonts/Boeklins/boeklin.woff2);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url(fonts/eb-garamond-v32-latin-regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -31,13 +47,15 @@ ul {
     display: flex;
     gap: 10px;
     flex-direction: row;
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 }
 
 h1 {
     padding: 0px;
     margin: 0px;
     font-size: 30px;
-    font-weight: 900
+    font-weight: 900;
+    font-family: 'Boeklins', 'Times New Roman';
 }
 
 .description {
@@ -50,19 +68,27 @@ h1 {
     padding-top: 60px;
 }
 
+.d-left,
+.d-right {
+    max-width: 600px;
+    flex-shrink: 1;
+}
+
 .logo {
-    height: 100%;
+    height: 180px;
 }
 
 h2 {
     font-size: 40px;
     margin: 0px;
     padding: 0px;
+    font-family: 'Boeklins', 'Times New Roman'
 }
 
 p {
     padding: 0px;
     margin: 0px;
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 }
 
 .about {
@@ -73,23 +99,18 @@ button {
     font-size: 20px;
     padding: 15px;
     background-color: #0d1b2a;
-    border: none;
+    border: solid;
+    border-color: #415a77;
+    border-width: 5px;
     color: #e0e1dd;
     border-radius: 15px;
+    font-family: 'Boeklins', 'Times New Roman', Times, serif;
 }
 
 h2, 
 p, 
 button {
     margin: 10px;
-}
-
-.d-right,
-.d-left {
-    width: 100%;
-    max-width: 800px;
-    min-width: 0;
-    height: 180px;
 }
 
 .d-right {
